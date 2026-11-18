@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Ambiente e editor (o settings.json do VS Code é compartilhado pela equipe)
+.env
+.idea/
+.vscode/*
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Dados pesados: o dataset PKU-Market-PCB deve ser baixado do site oficial
+# (ver dados/README.md)
+dados/PCB_DATASET/
+
+# Referências cadastradas localmente pela tela "Referências" (cada máquina tem as suas).
+# O .gitkeep mantém a pasta no repositório.
+dados/referencias/*
+!dados/referencias/.gitkeep
+
+# Observação: resultados/ NÃO é ignorada, para que as saídas da análise do
+# dataset (CSVs e gráficos) possam ser versionadas e citadas no README.
