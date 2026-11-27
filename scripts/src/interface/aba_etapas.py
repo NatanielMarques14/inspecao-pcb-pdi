@@ -12,7 +12,7 @@ from PySide6.QtWidgets import (
     QPushButton, QSpinBox, QVBoxLayout, QWidget,
 )
 
-from src.processamento import pipeline
+from ..processamento import pipeline
 
 from .componentes import VisualizadorImagem
 

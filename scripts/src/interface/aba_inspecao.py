@@ -12,7 +12,7 @@ from PySide6.QtWidgets import (
     QMessageBox, QPushButton, QVBoxLayout, QWidget,
 )
 
-from src.processamento import registro
+from ..processamento import registro
 
 from .componentes import VisualizadorImagem, ler_imagem
 
